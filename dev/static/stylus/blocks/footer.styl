@@ -1,0 +1,71 @@
+.footer
+	background-color blueBGC
+	padding 80px 0 40px 0
+	
+	*
+		color whiteC
+		font-weight 600
+		font-size rem(20)
+	
+	&__wrap
+		display flex
+		justify-content space-around
+	
+	nav
+		ul
+			li
+				margin 0 0 15px 0
+				
+				a
+					position relative
+					font-size rem(16)
+					
+					&:after
+						content ''
+						display block
+						position absolute
+						bottom -3px
+						width 0%
+						left 50%
+						transform translateX(-50%)
+						height 2px
+						background-color whiteC
+						transition width .3s
+				
+					&:hover:after
+						width 100%
+				
+			&:last-child
+				margin 0
+	
+	&__love
+		
+		.heart
+			text-align right
+			margin 0 0 15px 0
+		
+		p
+			margin 0 0 30px 0
+		
+		.small
+			font-size rem(15)
+			font-weight 400
+			line-height 1.1
+		
+	&__social
+		
+		i
+			font-weight 400
+		
+		li
+			display inline-block
+			margin 0 15px 0 0
+			
+			&:last-child
+				margin 0
+	
+	&__cop
+		text-align center
+		font-size 14px
+		margin 15px 0
+		font-weight 400

@@ -1,0 +1,115 @@
+@import 'fonts.styl'
+@import 'vars.styl'
+@import 'libs.styl'
+@import 'utils/mixins.styl'
+
+html
+	line-height 1.3
+	font-size 14px
+
+
+body
+	font-family mainFont
+
+
+h1,h2,h3,h4,h5,h6
+	margin 0
+
+
+ul,li
+	margin 0
+	padding 0
+	list-style-type none
+
+p
+	margin 0
+
+a
+	text-decoration none
+	color blue
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+	vertical-align middle
+
+
+textarea
+	resize none
+
+
+section
+	position relative
+
+
+input,
+select,
+button
+	outline none
+
+
+*, *:before, *:after
+	box-sizing border-box
+
+.wrapper
+	min-width 320px
+
+// .container
+// 	width 90%
+// 	max-width 1170px
+// 	margin 0 auto
+
+
+// Общие стили
+@import 'common_styles.styl'
+
+// Блоки --------------------------------------------------------------------
+
+// Стили шапки
+@import 'blocks/header.styl'
+
+// Стили main_block
+@import 'blocks/main_block.styl'
+
+// Стили banner
+@import 'blocks/banner.styl'
+
+// Стили howworks
+@import 'blocks/howworks.styl'
+
+// Стили action
+@import 'blocks/goaction.styl'
+
+// Стили with
+@import 'blocks/with.styl'
+
+// Стили prof
+@import 'blocks/prof.styl'
+
+// Стили pricing
+@import 'blocks/pricing.styl'
+
+// Стили aboutus
+@import 'blocks/aboutus.styl'
+
+// Стили about
+@import 'blocks/about.styl'
+
+// Стили футера
+@import 'blocks/footer.styl'
+
+// Медиа запросы --------------------------------------------------------------------
+
+@import 'media.styl'
+
+// Компоненты --------------------------------------------------------------------
+
+@import "components/components.styl"
+
+// Страницы --------------------------------------------------------------------
+
+// Стили главной страницы
+@import 'pages/index.styl'
